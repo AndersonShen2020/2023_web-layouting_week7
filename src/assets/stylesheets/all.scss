@@ -1,5 +1,5 @@
 // font style
-@import "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Yeseva+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@700&family=Yeseva+One&display=swap";
 
 // icon
 @import "./vendors/icofont/icofont.min.css";
@@ -9,9 +9,15 @@
 @import "./helpers/variables";
 @import "bootstrap/scss/bootstrap";
 
+// base
+@import "./base/base";
+
 // layout
 @import "./layout/header";
 @import "./layout/footer";
+
+// components
+@import "./components/btn";
 
 // pages
 @import "./pages/index";

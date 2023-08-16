@@ -284,8 +284,10 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary: $blue !default;
-$secondary: $gray-600 !default;
+// $primary: $blue !default;
+// $secondary: $gray-600 !default;
+$primary: #030303 !default; // *custom
+$secondary: #fbff22 !default; // *custom
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -297,10 +299,8 @@ $dark: $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  // "primary": $primary,
-  // "secondary": $secondary,
-  "primary": #030303,
-  "secondary": #fbff22,
+  "primary": $primary,
+  "secondary": $secondary,
   "success": $success,
   "info": $info,
   "warning": $warning,
@@ -355,7 +355,7 @@ $escaped-characters: (("<", "%3c"), (">", "%3e"), ("#", "%23"), ("(", "%28"), ("
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret: true !default;
-$enable-rounded: true !default;
+$enable-rounded: false !default;
 $enable-shadows: false !default;
 $enable-gradients: false !default;
 $enable-transitions: true !default;
@@ -426,10 +426,10 @@ $position-values: (
 $body-text-align: null !default;
 
 // $body-color: $gray-900 !default;
-$body-color: #030303 !default;
+$body-color: #030303 !default; // *custom
 
 // $body-bg: $white !default;
-$body-bg: #f3f1e5 !default;
+$body-bg: #f3f1e5 !default; // *custom
 $body-secondary-color: rgba($body-color, 0.75) !default;
 $body-secondary-bg: $gray-200 !default;
 $body-tertiary-color: rgba($body-color, 0.5) !default;
@@ -441,7 +441,9 @@ $body-emphasis-color: $black !default;
 // Style anchor elements.
 
 $link-color: $primary !default;
-$link-decoration: underline !default;
+
+// $link-decoration: underline !default;
+$link-decoration: none !default; // *custom
 $link-shade-percentage: 20% !default;
 $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration: null !default;
@@ -462,7 +464,8 @@ $icon-link-icon-transform: translate3d(0.25em, 0, 0) !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom: 1rem !default;
+// $paragraph-margin-bottom: 1rem !default;
+$paragraph-margin-bottom: 0 !default; // *custom
 
 // Grid breakpoints
 //
@@ -601,6 +604,7 @@ $aspect-ratios: (
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:
   "Yeseva One",
+  "Noto Sans TC",
   "Noto Serif TC",
   system-ui,
   -apple-system,
@@ -614,7 +618,7 @@ $font-family-sans-serif:
   "Apple Color Emoji",
   "Segoe UI Emoji",
   "Segoe UI Symbol",
-  "Noto Color Emoji" !default;
+  "Noto Color Emoji" !default; // *custom
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
 $font-family-base: var(--#{$prefix}font-sans-serif) !default;
@@ -659,7 +663,8 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom: $spacer * 0.5 !default;
+// $headings-margin-bottom: $spacer * 0.5 !default;
+$headings-margin-bottom: 0 !default; // *custom
 $headings-font-family: null !default;
 $headings-font-style: null !default;
 $headings-font-weight: 500 !default;
@@ -855,7 +860,9 @@ $btn-active-border-tint-amount: 10% !default;
 
 // scss-docs-start form-text-variables
 $form-text-margin-top: 0.25rem !default;
-$form-text-font-size: $small-font-size !default;
+
+// $form-text-font-size: $small-font-size !default;
+$form-text-font-size: 16px !default;
 $form-text-font-style: null !default;
 $form-text-font-weight: null !default;
 $form-text-color: var(--#{$prefix}secondary-color) !default;
@@ -872,8 +879,10 @@ $form-label-color: null !default;
 // scss-docs-end form-label-variables
 
 // scss-docs-start form-input-variables
-$input-padding-y: $input-btn-padding-y !default;
-$input-padding-x: $input-btn-padding-x !default;
+// $input-padding-y: $input-btn-padding-y !default;
+// $input-padding-x: $input-btn-padding-x !default;
+$input-padding-y: 0.75rem !default; // *custom
+$input-padding-x: 1.5rem !default; // *custom
 $input-font-family: $input-btn-font-family !default;
 $input-font-size: $input-btn-font-size !default;
 $input-font-weight: $font-weight-base !default;
@@ -889,8 +898,12 @@ $input-disabled-color: null !default;
 $input-disabled-bg: var(--#{$prefix}secondary-bg) !default;
 $input-disabled-border-color: null !default;
 $input-color: var(--#{$prefix}body-color) !default;
-$input-border-color: var(--#{$prefix}border-color) !default;
-$input-border-width: $input-btn-border-width !default;
+
+// $input-border-color: var(--#{$prefix}border-color) !default;
+$input-border-color: $primary !default;
+
+// $input-border-width: $input-btn-border-width !default;
+$input-border-width: 2px !default;
 $input-box-shadow: $box-shadow-inset !default;
 $input-border-radius: var(--#{$prefix}border-radius) !default;
 $input-border-radius-sm: var(--#{$prefix}border-radius-sm) !default;
@@ -1173,7 +1186,8 @@ $nav-underline-link-active-color: var(--#{$prefix}emphasis-color) !default;
 // Navbar
 
 // scss-docs-start navbar-variables
-$navbar-padding-y: $spacer * 0.5 !default;
+// $navbar-padding-y: $spacer * 0.5 !default;
+$navbar-padding-y: 24px !default; // *custom
 $navbar-padding-x: null !default;
 $navbar-nav-link-padding-x: 0.5rem !default;
 $navbar-brand-font-size: $font-size-lg !default;
