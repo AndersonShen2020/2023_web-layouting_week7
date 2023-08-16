@@ -297,12 +297,14 @@ $dark: $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
+  // "primary": $primary,
+  // "secondary": $secondary,
+  "primary": #030303,
+  "secondary": #fbff22,
   "success": $success,
   "info": $info,
   "warning": $warning,
-  "danger": $danger,
+  "danger": #c96464,
   "light": $light,
   "dark": $dark
 ) !default;
@@ -422,8 +424,12 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-text-align: null !default;
-$body-color: $gray-900 !default;
-$body-bg: $white !default;
+
+// $body-color: $gray-900 !default;
+$body-color: #030303 !default;
+
+// $body-bg: $white !default;
+$body-bg: #f3f1e5 !default;
 $body-secondary-color: rgba($body-color, 0.75) !default;
 $body-secondary-bg: $gray-200 !default;
 $body-tertiary-color: rgba($body-color, 0.5) !default;
