@@ -1,0 +1,17 @@
+// font style
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Yeseva+One&display=swap";
+
+// icon
+@import "./vendors/icofont/icofont.min.css";
+
+// bootstrap
+@import "bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "bootstrap/scss/bootstrap";
+
+// layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// pages
+@import "./pages/index";
