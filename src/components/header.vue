@@ -3,29 +3,34 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <h1 class="me-5">
+          <h1 class="me-md-5">
             <RouterLink class="d-flex align-items-center" to="/">
               <img
                 class="img-fluid me-3 logo"
                 src="@/assets/img/logo.png"
                 alt=""
               />
-              <p class="fs-2 d-flex align-items-center">
+              <p class="fs-2 d-flex align-items-center d-lg-block d-none">
                 7TAO<span class="noto-tc-serif fs-6">活動訂票網</span>
               </p>
             </RouterLink>
           </h1>
-          <form class="d-flex">
+          <div class="input-group w-auto">
             <input
-              class="form-control"
               type="search"
+              class="form-control"
               placeholder="探索活動"
-              aria-label="Search"
+              aria-label="探索活動"
+              aria-describedby="button-addon2"
             />
-            <button class="btn btn-primary" type="submit">
+            <button
+              class="btn btn-primary btn-search"
+              type="button"
+              id="button-addon2"
+            >
               <i class="icofont-search-1"></i>
             </button>
-          </form>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
