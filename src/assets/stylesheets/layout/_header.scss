@@ -28,4 +28,8 @@ header {
       }
     }
   }
+
+  button[type="button"] {
+    border: var(--bs-border-width) solid #030303 !important;
+  }
 }
