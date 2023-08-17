@@ -1,2 +1,31 @@
 header {
+  .logo {
+    width: 40px;
+    height: 40px;
+
+    @include media-breakpoint-up(lg) {
+      width: 53px;
+      height: 53px;
+    }
+  }
+
+  .input-group {
+    input[type="search"] {
+      height: 39px;
+      width: 168px;
+
+      @include media-breakpoint-up(lg) {
+        height: 55px;
+        width: 335px;
+      }
+    }
+
+    .btn-search {
+      width: 39px;
+
+      @include media-breakpoint-up(lg) {
+        width: 51px;
+      }
+    }
+  }
 }
