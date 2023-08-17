@@ -9,7 +9,7 @@
               src="@/assets/img/logo.png"
               alt=""
             />
-            <p class="fs-2 d-flex align-items-center d-lg-block d-none">
+            <p class="fs-2 d-lg-flex align-items-center d-none">
               7TAO<span class="noto-tc-serif fs-6">活動訂票網</span>
             </p>
           </RouterLink>
