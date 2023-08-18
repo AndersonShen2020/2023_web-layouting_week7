@@ -2,10 +2,10 @@
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <h1 class="me-md-5">
+        <h1 class="me-md-11">
           <RouterLink class="d-flex align-items-center" to="/">
             <img
-              class="img-fluid me-lg-3 logo"
+              class="img-fluid me-lg-5 logo"
               src="@/assets/img/logo.png"
               alt=""
             />
