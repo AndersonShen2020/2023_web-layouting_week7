@@ -14,19 +14,19 @@ import { getAssetsFile } from "@/util/pub-use"
 
 const modules = [Navigation]
 const images = [
-  { url: "01.jpg", alt: "01" },
-  { url: "02.jpg", alt: "02" },
-  { url: "03.jpg", alt: "03" },
-  { url: "04.jpg", alt: "04" },
-  { url: "05.jpg", alt: "05" },
-  { url: "06.jpg", alt: "06" },
-  { url: "07.jpg", alt: "07" },
-  { url: "08.jpg", alt: "08" },
-  { url: "09.jpg", alt: "09" },
-  { url: "10.jpg", alt: "10" },
-  { url: "11.jpg", alt: "11" },
-  { url: "12.jpg", alt: "12" },
-  { url: "13.jpg", alt: "13" }
+  { url: "event/01.jpg", alt: "01" },
+  { url: "event/02.jpg", alt: "02" },
+  { url: "event/03.jpg", alt: "03" },
+  { url: "event/04.jpg", alt: "04" },
+  { url: "event/05.jpg", alt: "05" },
+  { url: "event/06.jpg", alt: "06" },
+  { url: "event/07.jpg", alt: "07" },
+  { url: "event/08.jpg", alt: "08" },
+  { url: "event/09.jpg", alt: "09" },
+  { url: "event/10.jpg", alt: "10" },
+  { url: "event/11.jpg", alt: "11" },
+  { url: "event/12.jpg", alt: "12" },
+  { url: "event/13.jpg", alt: "13" }
 ]
 </script>
 

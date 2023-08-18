@@ -1,4 +1,4 @@
 export const getAssetsFile = (url) => {
-  return new URL(`../assets/img/event/${url}`, import.meta.url).href
+  return new URL(`../assets/img/${url}`, import.meta.url).href
 }
 
