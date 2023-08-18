@@ -9,58 +9,40 @@ import { Swiper, SwiperSlide } from "swiper/vue"
 import "swiper/css"
 import "swiper/css/navigation"
 
+// util
+import { getAssetsFile } from "@/util/pub-use"
+
 const modules = [Navigation]
+const images = [
+  { url: "01.jpg", alt: "01" },
+  { url: "02.jpg", alt: "02" },
+  { url: "03.jpg", alt: "03" },
+  { url: "04.jpg", alt: "04" },
+  { url: "05.jpg", alt: "05" },
+  { url: "06.jpg", alt: "06" },
+  { url: "07.jpg", alt: "07" },
+  { url: "08.jpg", alt: "08" },
+  { url: "09.jpg", alt: "09" },
+  { url: "10.jpg", alt: "10" },
+  { url: "11.jpg", alt: "11" },
+  { url: "12.jpg", alt: "12" },
+  { url: "13.jpg", alt: "13" }
+]
 </script>
 
 <template>
   <main>
     <!-- 隔牆有耳-沒有草東的派對 -->
-    <div class="container">
+    <div class="container mt-8">
       <Swiper
         :modules="modules"
         :slides-per-view="1"
         :space-between="50"
         navigation
       >
-        <SwiperSlide
-          ><img src="../assets/img/event/01.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/02.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/03.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/04.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/05.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/06.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/07.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/08.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/09.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/10.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/11.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/12.jpg" alt=""
-        /></SwiperSlide>
-        <SwiperSlide
-          ><img src="../assets/img/event/13.jpg" alt=""
-        /></SwiperSlide>
+        <SwiperSlide v-for="image in images" :key="image.alt">
+          <img :src="getAssetsFile(image.url)" :alt="image.alt" />
+        </SwiperSlide>
       </Swiper>
     </div>
 
