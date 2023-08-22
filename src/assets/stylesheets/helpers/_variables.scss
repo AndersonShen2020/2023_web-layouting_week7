@@ -661,24 +661,63 @@ $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
 $line-height-sm: 1.25 !default;
 $line-height-lg: 2 !default;
-$h1-font-size: $font-size-base * 2.5 !default;
-$h2-font-size: $font-size-base * 2 !default;
-$h3-font-size: $font-size-base * 1.75 !default;
-$h4-font-size: $font-size-base * 1.5 !default;
-$h5-font-size: $font-size-base * 1.25 !default;
-$h6-font-size: $font-size-base !default;
+
+// $h1-font-size: $font-size-base * 2.5 !default;
+// $h2-font-size: $font-size-base * 2 !default;
+// $h3-font-size: $font-size-base * 1.75 !default;
+// $h4-font-size: $font-size-base * 1.5 !default;
+// $h5-font-size: $font-size-base * 1.25 !default;
+// $h6-font-size: $font-size-base !default;
+
+// font-size // *custom
+$h1-font-size: $font-size-base * 5 !default; //     80px
+$h2-font-size: $font-size-base * 4.75 !default; //  78px
+$h3-font-size: $font-size-base * 4.5 !default; //   72px
+$h4-font-size: $font-size-base * 4.25 !default; //  68px
+$h5-font-size: $font-size-base * 4 !default; //     64px
+$h6-font-size: $font-size-base * 3.75 !default; //  60px
+$h7-font-size: $font-size-base * 3.5 !default; //   56px
+$h8-font-size: $font-size-base * 3.25 !default; //  52px
+$h9-font-size: $font-size-base * 3 !default; //     48px
+$h10-font-size: $font-size-base * 2.75 !default; // 44px
+$h11-font-size: $font-size-base * 2.5 !default; //  40px
+$h12-font-size: $font-size-base * 2.25 !default; // 36px
+$h13-font-size: $font-size-base * 2 !default; //    32px
+$h14-font-size: $font-size-base * 1.75 !default; // 28px
+$h15-font-size: $font-size-base * 1.5 !default; //  24px
+$h16-font-size: $font-size-base * 1.25 !default; // 20px
+$h17-font-size: $font-size-base !default; //        16px
 
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
+// $font-sizes: (
+//   1: $h1-font-size,
+//   2: $h2-font-size,
+//   3: $h3-font-size,
+//   4: $h4-font-size,
+//   5: $h5-font-size,
+//   6: $h6-font-size
+// ) !default;
 $font-sizes: (
   1: $h1-font-size,
   2: $h2-font-size,
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
-) !default;
+  6: $h6-font-size,
+  7: $h7-font-size,
+  8: $h8-font-size,
+  9: $h9-font-size,
+  10: $h10-font-size,
+  11: $h11-font-size,
+  12: $h12-font-size,
+  13: $h13-font-size,
+  14: $h14-font-size,
+  15: $h15-font-size,
+  16: $h16-font-size,
+  17: $h17-font-size
+) !default; // *custom
 
 // scss-docs-end font-sizes
 
@@ -695,11 +734,17 @@ $headings-color: inherit !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
+  // 16px * 5   = 80px
   1: 5rem,
+  // 16px * 4.5 = 72px
   2: 4.5rem,
+  // 16px * 4   = 64px
   3: 4rem,
+  // 16px * 3.5 = 56px
   4: 3.5rem,
+  // 16px * 3   = 48px
   5: 3rem,
+  // 16px * 2.5 = 40px
   6: 2.5rem
 ) !default;
 $display-font-family: null !default;
