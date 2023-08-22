@@ -143,12 +143,17 @@ const events = [
             <div
               class="card-img-overlay text-white d-flex flex-column justify-content-between"
             >
-              <h2 class="card-title ms-8 mt-8 fs-6">{{ event.date }}</h2>
+              <h2 class="card-title ms-7 ms-md-8 mt-md-8 fs-13 fs-md-6">
+                {{ event.date }}
+              </h2>
               <div class="text-center mb-2">
-                <h3 class="card-text noto-tc-serif fs-15 mb-5">
+                <h3 class="card-text noto-tc-serif fs-md-15 fs-17 mb-md-5">
                   {{ event.title }}
                 </h3>
-                <p class="card-text" v-html="event.content"></p>
+                <p
+                  class="card-text d-none d-md-block"
+                  v-html="event.content"
+                ></p>
               </div>
             </div>
           </div>
