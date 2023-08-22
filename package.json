@@ -28,6 +28,7 @@
     "sass": "^1.64.2",
     "stylelint": "^15.10.2",
     "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-config-twbs-bootstrap": "^11.0.1",
     "vite": "^4.4.6",
     "vue-eslint-parser": "^9.3.1"
   }
