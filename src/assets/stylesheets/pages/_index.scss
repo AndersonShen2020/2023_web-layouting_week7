@@ -28,17 +28,27 @@
 }
 
 .cate {
-  padding: 32px 0;
+  padding: 18px 0;
+  @include media-breakpoint-up(md) {
+    padding: 32px 0;
+  }
   &-img {
-    width: 80px;
+    width: 40px;
     transition: 0.1s ease-out-in;
     &:hover {
       transform: scale(1.1);
     }
+    @include media-breakpoint-up(md) {
+      width: 80px;
+    }
   }
   &-more {
-    padding: 36px 0;
-    line-height: 1.25;
+    padding: 22px 0;
+    line-height: 1.3333;
+    @include media-breakpoint-up(md) {
+      padding: 36px 0;
+      line-height: 1.25;
+    }
     p {
       transition: 0.1s ease-out-in;
       &:hover {
