@@ -7,11 +7,12 @@
             <img
               class="img-fluid me-lg-5 logo"
               src="@/assets/img/logo.png"
-              alt=""
+              alt="logo"
             />
-            <p class="fs-13 d-lg-flex align-items-center d-none">
-              7TAO<span class="noto-tc-serif fs-17">活動訂票網</span>
-            </p>
+            <div class="d-none d-lg-flex align-items-center">
+              <p class="fs-13 me-1">7TAO</p>
+              <p class="noto-tc-serif fs-17">活動訂票網</p>
+            </div>
           </RouterLink>
         </h1>
         <div class="input-group w-auto">
