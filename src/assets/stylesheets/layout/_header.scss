@@ -1,6 +1,10 @@
 header {
   border-bottom: 3px solid $primary;
 
+  .border-t-3 {
+    border-top: 3px solid $primary;
+  }
+
   .logo {
     width: 40px;
     height: 40px;
@@ -13,12 +17,12 @@ header {
 
   .input-group {
     input[type="search"] {
-      height: 39px;
       width: 168px;
+      height: 39px;
 
       @include media-breakpoint-up(lg) {
-        height: 55px;
         width: 284px;
+        height: 55px;
       }
     }
 

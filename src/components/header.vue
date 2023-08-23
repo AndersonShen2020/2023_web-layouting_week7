@@ -41,8 +41,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div
+          class="collapse navbar-collapse d-none"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <RouterLink class="nav-link" aria-current="page" to="/"
                 ><i class="icofont-ui-file"></i> REGISTER</RouterLink
@@ -56,6 +59,23 @@
           </ul>
         </div>
       </nav>
+    </div>
+    <div
+      class="collapse navbar-collapse border-t-3"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav ms-3">
+        <li class="nav-item">
+          <RouterLink class="nav-link" aria-current="page" to="/"
+            ><i class="icofont-ui-file"></i> REGISTER</RouterLink
+          >
+        </li>
+        <li class="nav-item">
+          <RouterLink class="nav-link" to="/"
+            ><i class="icofont-ui-user"></i> LOGIN</RouterLink
+          >
+        </li>
+      </ul>
     </div>
   </header>
 </template>
