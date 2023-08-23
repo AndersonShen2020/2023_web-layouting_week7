@@ -26,3 +26,24 @@
     }
   }
 }
+
+.cate {
+  padding: 32px 0;
+  &-img {
+    width: 80px;
+    transition: 0.1s ease-out-in;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &-more {
+    padding: 36px 0;
+    line-height: 1.25;
+    p {
+      transition: 0.1s ease-out-in;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

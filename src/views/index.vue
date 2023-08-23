@@ -162,7 +162,83 @@ const events = [
     </div>
 
     <!-- NAV -->
-    <div class="container"></div>
+    <div class="container mt-11 noto-tc-serif">
+      <ul class="row list-unstyled">
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark">
+            <RouterLink class="d-block cate" to="/">
+              <img
+                class="cate-img img-fluid"
+                src="../assets/img/cate01.svg"
+                alt="演出"
+              />
+              <p class="mt-3 fs-15 fw-bold">演出</p>
+            </RouterLink>
+          </div>
+        </li>
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark">
+            <RouterLink class="d-block cate" to="/">
+              <img
+                class="cate-img img-fluid"
+                src="../assets/img/cate02.svg"
+                alt="聯誼"
+              />
+              <p class="mt-3 fs-15 fw-bold">聯誼</p>
+            </RouterLink>
+          </div>
+        </li>
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark">
+            <RouterLink class="d-block cate" to="/">
+              <img
+                class="cate-img img-fluid"
+                src="../assets/img/cate03.svg"
+                alt="展覽"
+              />
+              <p class="mt-3 fs-15 fw-bold">展覽</p>
+            </RouterLink>
+          </div>
+        </li>
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark">
+            <RouterLink class="d-block cate" to="/">
+              <img
+                class="cate-img img-fluid"
+                src="../assets/img/cate04.svg"
+                alt="美食"
+              />
+              <p class="mt-3 fs-15 fw-bold">美食</p>
+            </RouterLink>
+          </div>
+        </li>
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark">
+            <RouterLink class="d-block cate" to="/">
+              <img
+                class="cate-img img-fluid"
+                src="../assets/img/cate05.svg"
+                alt="戶外"
+              />
+              <p class="mt-3 fs-15 fw-bold">戶外</p>
+            </RouterLink>
+          </div>
+        </li>
+        <li class="col-md-2 col-4 text-center">
+          <div class="border border-2 border-dark h-100">
+            <RouterLink
+              class="d-block cate-more fw-bold bg-primary text-secondary"
+              to="/"
+            >
+              <p class="fs-9">
+                探索 <br />
+                更多
+              </p>
+            </RouterLink>
+          </div>
+        </li>
+      </ul>
+    </div>
 
     <!-- RECENT 近期活動 -->
     <div class="container"></div>
