@@ -162,7 +162,7 @@ const events = [
     </div>
 
     <!-- NAV -->
-    <div class="container mt-11 noto-tc-serif">
+    <div class="container mt-md-11 mt-8 noto-tc-serif">
       <ul class="row g-2 g-lg-3 list-unstyled">
         <li class="col-lg-2 col-4 text-center">
           <div class="border border-2 border-dark">
@@ -241,7 +241,245 @@ const events = [
     </div>
 
     <!-- RECENT 近期活動 -->
-    <div class="container"></div>
+    <div class="container recent mt-md-11 mt-8">
+      <div
+        class="recent-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
+      >
+        <p class="fs-md-5 fs-15">RECENT</p>
+        <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">近期活動</p>
+      </div>
+      <div class="row gy-md-11 gy-7 mt-0">
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              19 MAY 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/01.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                邪典電影派對——房間
+              </h5>
+              <p class="card-text noto-tc-sans">
+                你有聽說過「大災難家」裡面的主角 Tommy Wiseau
+                製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">社群活動</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">開賣中</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              23 MAY 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/02.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                怪舞俱樂部
+              </h5>
+              <p class="card-text noto-tc-sans">
+                覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">演出</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">檢視活動</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              30 MAY 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/03.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                哈利波特馬拉松
+              </h5>
+              <p class="card-text noto-tc-sans">
+                每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">聯誼</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">開賣中</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              12 June 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/04.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                皮卡丘排球大賽
+              </h5>
+              <p class="card-text noto-tc-sans">
+                還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方式進行，是時候該證明自己...
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">遊戲競賽</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">開賣中</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              25 June 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/05.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                酒精路跑
+              </h5>
+              <p class="card-text noto-tc-sans">
+                身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">社群活動</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">開賣中</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card border-0 mb-3">
+            <div class="card-header border-md-3 border-dark px-0 pt-0">
+              9 July 2023
+            </div>
+            <div class="card-body pt-md-3 pb-md-4 px-0">
+              <img
+                src="../assets/img/event/06.jpg"
+                alt=""
+                class="object-cover"
+              />
+              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+                展覽——我的房間
+              </h5>
+              <p class="card-text noto-tc-sans">
+                每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。
+              </p>
+            </div>
+            <div
+              class="card-footer border-2 border-bottom border-dark d-flex justify-content-between px-0 fw-bold"
+            >
+              <div class="d-flex align-items-center">
+                <img
+                  class="icon me-1"
+                  src="../assets/img/sparkler.png"
+                  alt=""
+                />
+                <RouterLink to="/">展覽</RouterLink>
+              </div>
+              <RouterLink class="d-flex align-items-center link-sales" to="/">
+                <p class="me-1">開賣中</p>
+                <span class="material-symbols-outlined">
+                  keyboard_double_arrow_right
+                </span>
+              </RouterLink>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ONLINE 線上活動 -->
     <div class="container"></div>
