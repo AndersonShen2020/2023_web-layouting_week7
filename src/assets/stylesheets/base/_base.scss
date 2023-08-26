@@ -11,8 +11,14 @@
 }
 
 .tao-title {
-  padding: 10px 12px;
+  padding: 16px 12px;
   @include media-breakpoint-up(md) {
-    padding: 10px 32px;
+    padding: 24px 32px;
+  }
+  &-subtitle {
+    line-height: 28px;
+    @include media-breakpoint-up(md) {
+      line-height: 74px;
+    }
   }
 }

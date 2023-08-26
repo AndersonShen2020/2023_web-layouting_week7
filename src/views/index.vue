@@ -242,12 +242,12 @@ const events = [
 
     <!-- RECENT 近期活動 -->
     <div class="container recent mt-md-11 mt-8">
-      <div
+      <h2
         class="tao-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
       >
-        <p class="fs-md-5 fs-15">RECENT</p>
+        <p class="fs-md-5 fs-15 tao-title-subtitle">RECENT</p>
         <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">近期活動</p>
-      </div>
+      </h2>
       <div class="row gy-md-11 gy-7 mt-0">
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
@@ -494,7 +494,15 @@ const events = [
     </div>
 
     <!-- ONLINE 線上活動 -->
-    <div class="container"></div>
+    <div class="container online mt-md-11 mt-8">
+      <h2
+        class="tao-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
+      >
+        <p class="fs-md-5 fs-15 tao-title-subtitle">ONLINE</p>
+        <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">線上活動</p>
+      </h2>
+      <div class="row mt-md-8 mt-7"></div>
+    </div>
 
     <!-- 活動集錦・ALBUMS -->
     <div class="container"></div>
