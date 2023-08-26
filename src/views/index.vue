@@ -243,7 +243,7 @@ const events = [
     <!-- RECENT 近期活動 -->
     <div class="container recent mt-md-11 mt-8">
       <div
-        class="recent-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
+        class="tao-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
       >
         <p class="fs-md-5 fs-15">RECENT</p>
         <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">近期活動</p>

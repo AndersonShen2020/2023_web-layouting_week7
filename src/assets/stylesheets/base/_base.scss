@@ -5,3 +5,14 @@
 .noto-tc-sans {
   font-family: "Noto Sans TC" !important;
 }
+
+.object-cover {
+  object-fit: cover;
+}
+
+.tao-title {
+  padding: 10px 12px;
+  @include media-breakpoint-up(md) {
+    padding: 10px 32px;
+  }
+}
