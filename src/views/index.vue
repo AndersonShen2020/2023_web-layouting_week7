@@ -251,7 +251,7 @@ const events = [
       <div class="row gy-md-11 gy-7 mt-0">
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               19 MAY 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -260,7 +260,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 邪典電影派對——房間
               </h5>
               <p class="card-text noto-tc-sans">
@@ -290,7 +292,7 @@ const events = [
         </div>
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               23 MAY 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -299,7 +301,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 怪舞俱樂部
               </h5>
               <p class="card-text noto-tc-sans">
@@ -328,7 +332,7 @@ const events = [
         </div>
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               30 MAY 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -337,7 +341,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 哈利波特馬拉松
               </h5>
               <p class="card-text noto-tc-sans">
@@ -366,7 +372,7 @@ const events = [
         </div>
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               12 June 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -375,7 +381,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 皮卡丘排球大賽
               </h5>
               <p class="card-text noto-tc-sans">
@@ -404,7 +412,7 @@ const events = [
         </div>
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               25 June 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -413,7 +421,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 酒精路跑
               </h5>
               <p class="card-text noto-tc-sans">
@@ -442,7 +452,7 @@ const events = [
         </div>
         <div class="col-md-4 col-12">
           <div class="card border-0 mb-3">
-            <div class="card-header border-md-3 border-dark px-0 pt-0">
+            <div class="card-header border-3 border-dark px-0 pt-0">
               9 July 2023
             </div>
             <div class="card-body pt-md-3 pb-md-4 px-0">
@@ -451,7 +461,9 @@ const events = [
                 alt=""
                 class="object-cover"
               />
-              <h5 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3">
+              <h5
+                class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
+              >
                 展覽——我的房間
               </h5>
               <p class="card-text noto-tc-sans">

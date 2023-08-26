@@ -69,6 +69,10 @@
     object-fit: cover;
   }
   .card-header {
+    padding-bottom: 8px;
+    font-size: 32px;
+    line-height: 37px;
+
     @include media-breakpoint-up(md) {
       padding-bottom: 12px;
       font-size: 48px;
@@ -76,6 +80,9 @@
     }
   }
   .card-body {
+    h5 {
+      font-size: 18px;
+    }
     img {
       width: 100%;
       height: 210px;
