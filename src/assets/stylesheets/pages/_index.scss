@@ -145,3 +145,25 @@
     }
   }
 }
+
+.online {
+  img {
+    width: 100%;
+    height: 158px;
+    object-position: 50% 40%;
+    @include media-breakpoint-up(md) {
+      // width: 746px;
+      width: 100%;
+      height: 317px;
+      object-position: 50% 40%;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 26px;
+    @include media-breakpoint-up(md) {
+      font-size: 32px;
+      line-height: 46px;
+    }
+  }
+}

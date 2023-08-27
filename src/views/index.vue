@@ -494,14 +494,53 @@ const events = [
     </div>
 
     <!-- ONLINE 線上活動 -->
-    <div class="container online mt-md-11 mt-8">
+    <div class="container online mt-md-11 mt-6">
       <h2
         class="tao-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
       >
         <p class="fs-md-5 fs-15 tao-title-subtitle">ONLINE</p>
         <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">線上活動</p>
       </h2>
-      <div class="row mt-md-8 mt-7"></div>
+      <div class="row mt-md-8 mt-7">
+        <div class="col-md-7 col-12 mb-md-0 mb-3">
+          <img
+            class="object-cover"
+            src="../assets/img/event/online.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-12">
+          <h3 class="fw-bold mb-md-5 mb-2">切特居批踢</h3>
+          <ul class="list-unstyled d-flex gap-2 mb-md-8 mb-3">
+            <li>
+              <RouterLink class="tao-link-secondary" to="/">競賽</RouterLink>
+            </li>
+            <li>
+              <RouterLink class="tao-link-secondary" to="/">科技</RouterLink>
+            </li>
+            <li>
+              <RouterLink class="tao-link-secondary" to="/">有趣</RouterLink>
+            </li>
+          </ul>
+          <p class="noto-tc-sans mb-md-8 mb-3">
+            最近網路上很流行的AI程式
+            ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+            <br />
+            這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
+            <br />
+            該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！
+          </p>
+          <RouterLink
+            class="d-flex align-items-center justify-content-center tao-link-primary"
+            to="/"
+          >
+            <p class="me-1">查看活動詳情</p>
+            <span class="material-symbols-outlined">
+              keyboard_double_arrow_right
+            </span>
+          </RouterLink>
+        </div>
+      </div>
     </div>
 
     <!-- 活動集錦・ALBUMS -->
