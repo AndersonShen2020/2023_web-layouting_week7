@@ -72,7 +72,10 @@
   }
   .card-body {
     h5 {
+      overflow: hidden;
       font-size: 18px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     img {
       width: 100%;
