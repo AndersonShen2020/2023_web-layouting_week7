@@ -544,7 +544,114 @@ const events = [
     </div>
 
     <!-- 活動集錦・ALBUMS -->
-    <div class="container"></div>
+    <div class="albums noto-tc-serif mt-md-12 mt-11">
+      <Swiper
+        :modules="modules"
+        slidesPerView="auto"
+        allowTouchMove="false"
+        speed="7000"
+        :loop="true"
+        :autoplay="{
+          delay: 0,
+          disableOnInteraction: false
+        }"
+      >
+        <SwiperSlide v-for="i in 5" :key="i">
+          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+        </SwiperSlide>
+      </Swiper>
+      <div class="container mt-md-12 mt-8">
+        <ul class="row justify-content-center mt-60 list-unstyled">
+          <li class="col-md-3 col-10">
+            <div
+              class="item border border-2 border-dark p-3 pb-5 position-relative"
+            >
+              <h2
+                class="position-absolute top-0 start-50 translate-middle bg-white px-3 py-2 fw-bold h2-transform"
+              >
+                社群活動
+              </h2>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true"
+                class="img-fluid w-100 object-fit-cover"
+                alt="社群活動"
+              />
+              <p class="pt-3">無聲派對-閉閉嘴dancing</p>
+            </div>
+          </li>
+
+          <li class="col-md-3 col-10 mt-md-0 mt-9">
+            <div
+              class="item border border-2 border-dark p-3 pb-5 position-relative"
+            >
+              <h2
+                class="position-absolute top-0 start-50 bg-white px-3 py-2 fw-bold h2-transform"
+              >
+                藝文活動
+              </h2>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true"
+                class="img-fluid w-100 object-fit-cover"
+                alt="藝文活動"
+              />
+              <p class="pt-3">搶救老店大作戰</p>
+            </div>
+          </li>
+
+          <li class="col-md-3 col-10 mt-md-0 mt-9">
+            <div
+              class="item border border-2 border-dark p-3 pb-5 position-relative"
+            >
+              <h2
+                class="position-absolute top-0 start-50 bg-white px-3 py-2 fw-bold h2-transform"
+              >
+                自我覺察
+              </h2>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true"
+                class="img-fluid w-100 object-fit-cover"
+                alt="自我覺察"
+              />
+              <p class="pt-3">內觀修行-部落篇</p>
+            </div>
+          </li>
+
+          <li class="col-md-3 col-10 mt-md-0 mt-9">
+            <div
+              class="item border border-2 border-dark p-3 pb-5 position-relative"
+            >
+              <h2
+                class="position-absolute top-0 start-50 bg-white px-3 py-2 fw-bold h2-transform"
+              >
+                聯誼活動
+              </h2>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true"
+                class="img-fluid w-100 object-fit-cover"
+                alt="聯誼活動"
+              />
+              <p class="pt-3">賞櫻野餐</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <Swiper
+        class="mt-md-12 mt-11"
+        :modules="modules"
+        slidesPerView="auto"
+        allowTouchMove="false"
+        speed="7000"
+        :loop="true"
+        :autoplay="{
+          delay: 0,
+          disableOnInteraction: false
+        }"
+      >
+        <SwiperSlide v-for="i in 5" :key="i">
+          活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+        </SwiperSlide>
+      </Swiper>
+    </div>
 
     <!-- FOLLOW subscribe -->
     <div class="container"></div>
