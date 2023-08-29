@@ -6,10 +6,6 @@
   font-family: "Noto Sans TC" !important;
 }
 
-.object-cover {
-  object-fit: cover;
-}
-
 .tao-title {
   padding: 16px 12px;
   @include media-breakpoint-up(md) {

@@ -258,7 +258,7 @@ const events = [
               <img
                 src="../assets/img/event/01.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -299,7 +299,7 @@ const events = [
               <img
                 src="../assets/img/event/02.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -339,7 +339,7 @@ const events = [
               <img
                 src="../assets/img/event/03.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -379,7 +379,7 @@ const events = [
               <img
                 src="../assets/img/event/04.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -419,7 +419,7 @@ const events = [
               <img
                 src="../assets/img/event/05.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -459,7 +459,7 @@ const events = [
               <img
                 src="../assets/img/event/06.jpg"
                 alt=""
-                class="object-cover"
+                class="object-fit-cover"
               />
               <h5
                 class="card-title noto-tc-serif fw-bold fs-md-15 mt-md-3 mt-2"
@@ -504,7 +504,7 @@ const events = [
       <div class="row mt-md-8 mt-7">
         <div class="col-md-7 col-12 mb-md-0 mb-3">
           <img
-            class="object-cover"
+            class="object-fit-cover"
             src="../assets/img/event/online.jpg"
             alt=""
           />
