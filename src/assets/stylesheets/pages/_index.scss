@@ -250,3 +250,24 @@
     }
   }
 }
+
+.proverb {
+  p {
+    &:nth-child(1) {
+      font-size: 18px;
+      line-height: 26px;
+      @include media-breakpoint-up(md) {
+        font-size: 32px;
+        line-height: 46px;
+      }
+    }
+    &:nth-child(2) {
+      font-size: 14px;
+      line-height: 20px;
+      @include media-breakpoint-up(md) {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+}

@@ -714,5 +714,13 @@ const events = [
         </div>
       </div>
     </div>
+
+    <!-- 名言 -->
+    <div
+      class="container-fluid proverb text-center fw-bold noto-tc-serif border border-3 border-start-0 border-end-0 border-primary py-md-12 py-11 mt-md-12 mt-11"
+    >
+      <p>此刻打盹，你將做夢；此刻學習，你將圓夢</p>
+      <p class="mt-md-5 mt-3">——我也不知道誰說的</p>
+    </div>
   </main>
 </template>
