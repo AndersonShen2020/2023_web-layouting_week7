@@ -211,3 +211,42 @@
     }
   }
 }
+
+.follow {
+  h2 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  input[type="email"] {
+    padding: 16px 24px;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border: 2px solid #030303;
+    &:focus {
+      color: var(--bs-body-color);
+      background-color: var(--bs-body-bg);
+      border-color: #818181;
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgba(3, 3, 3, 0.25);
+    }
+  }
+  li {
+    font-family: "Noto Sans TC";
+    line-height: 2;
+    .icon {
+      padding: 8px;
+      margin-right: 16px;
+      color: #fff;
+      background-color: $primary;
+    }
+    &:nth-child(2) {
+      margin: 16px 0;
+    }
+  }
+  .tao-link-primary {
+    margin-top: 0;
+    @include media-breakpoint-up(md) {
+      margin-top: 26px;
+    }
+  }
+}

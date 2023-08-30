@@ -653,7 +653,66 @@ const events = [
       </Swiper>
     </div>
 
-    <!-- FOLLOW subscribe -->
-    <div class="container"></div>
+    <!-- FOLLOW SUBSCRIBE -->
+    <div class="container follow mt-md-12 mt-11">
+      <div class="d-flex flex-md-row flex-column">
+        <div class="w-100 border border-2 border-primary">
+          <h2
+            class="noto-tc-serif border border-0 border-bottom border-primary border-2 py-5 px-md-8 px-3"
+          >
+            #FOLLOW US
+          </h2>
+          <div class="py-md-8 py-5 px-md-8 px-3">
+            <p>
+              想第一時間獲得新奇有趣的活動資訊？<br />
+              追蹤我們的社群吧！<br />
+              也歡迎你聯繫我們，提供好玩有趣的活動企劃。
+            </p>
+            <ul class="list-unstyled mt-md-8 mt-5 mb-0">
+              <li>
+                <i class="icon icofont-ui-email"></i>
+                <a href="mailto:7tao.event@gmail.com">7tao.event@gmail.com</a>
+              </li>
+              <li>
+                <i class="icon icofont-phone"></i>
+                <a href="tel:09123123123">09123123123</a>
+              </li>
+              <li>
+                <i class="icon icofont-facebook"></i>
+                <a href="/">7TAO七逃</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="w-100 border border-2 border-start-md-0 border-primary mt-md-0 mt-7"
+        >
+          <h2
+            class="noto-tc-serif border border-0 border-bottom border-primary border-2 py-5 px-md-8 px-3"
+          >
+            #SUBSCRIBE US
+          </h2>
+          <div class="d-flex flex-column justify-content-between">
+            <div class="py-md-8 py-5 px-md-8 px-3">
+              <p>
+                訂閱電子報送折價券！<br />
+                定期精選文章資訊及最新優惠資訊，<br />
+                還不通通給我訂閱起來？
+              </p>
+              <input class="w-100 mt-8" type="email" placeholder="輸入Email" />
+            </div>
+            <RouterLink
+              class="d-flex align-items-center justify-content-center tao-link-primary"
+              to="/"
+            >
+              <p class="me-1">查看活動詳情</p>
+              <span class="material-symbols-outlined">
+                keyboard_double_arrow_right
+              </span>
+            </RouterLink>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
