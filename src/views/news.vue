@@ -144,7 +144,7 @@ const data = [
     <div class="container overflow-hidden mt-md-8 mt-3">
       <ul class="row gy-md-11 gy-7 card-news list-unstyled">
         <li class="col-md-4 col-12" v-for="datum in data" :key="datum.title">
-          <div class="card border-0 mb-3">
+          <div class="card border-0">
             <div class="card-header border-3 border-dark px-0 pt-0">
               {{ datum.date }}
             </div>
@@ -185,7 +185,9 @@ const data = [
         </li>
       </ul>
     </div>
-    <ul class="pagination justify-content-center">
+    <ul
+      class="pagination justify-content-center noto-tc-serif my-md-12 mt-8 mb-11 gap-2"
+    >
       <li class="page-item disabled">
         <RouterLink class="page-link" to="/news">
           <i class="icofont-arrow-left"></i>
@@ -199,6 +201,12 @@ const data = [
       </li>
       <li class="page-item">
         <RouterLink class="page-link" to="/news">3</RouterLink>
+      </li>
+      <li class="page-item">
+        <RouterLink class="page-link" to="/news">4</RouterLink>
+      </li>
+      <li class="page-item">
+        <RouterLink class="page-link" to="/news">5</RouterLink>
       </li>
       <li class="page-item">
         <RouterLink class="page-link" to="/news">
