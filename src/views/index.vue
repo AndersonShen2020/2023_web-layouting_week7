@@ -228,7 +228,7 @@ const events = [
           <div class="border border-2 border-dark h-100">
             <RouterLink
               class="d-block cate-more fw-bold bg-primary text-secondary"
-              to="/"
+              to="/news"
             >
               <p class="fs-md-9 fs-15">
                 探索 <br />
