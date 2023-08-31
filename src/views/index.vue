@@ -241,7 +241,7 @@ const events = [
     </div>
 
     <!-- RECENT 近期活動 -->
-    <div class="container recent mt-md-11 mt-8">
+    <div class="container card-news mt-md-11 mt-8">
       <h2
         class="tao-title border border-md-3 border-2 border-dark d-flex justify-content-between align-items-center"
       >
