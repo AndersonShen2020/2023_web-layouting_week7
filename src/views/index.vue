@@ -699,7 +699,12 @@ const events = [
                 定期精選文章資訊及最新優惠資訊，<br />
                 還不通通給我訂閱起來？
               </p>
-              <input class="w-100 mt-8" type="email" placeholder="輸入Email" />
+              <input
+                class="w-100 mt-8"
+                type="email"
+                name="email"
+                placeholder="輸入Email"
+              />
             </div>
             <RouterLink
               class="d-flex align-items-center justify-content-center tao-link-primary"
