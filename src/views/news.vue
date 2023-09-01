@@ -1,6 +1,12 @@
 <script setup>
+import { onMounted } from "vue"
+
 // util
 import { getAssetsFile } from "@/util/pub-use"
+
+// AOS
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const tags = [
   "演出",
@@ -124,6 +130,10 @@ const data = [
       "你也是那種動不動就容易放空、神遊的人嗎？這輩子靠這技能出頭的機會來了，在恆春山林一起神遊、盡情地發呆吧！冠軍可以得到價值十萬的綿豆腐床墊一張！"
   }
 ]
+
+onMounted(() => {
+  AOS.init({ once: true })
+})
 </script>
 
 <template>
@@ -143,7 +153,12 @@ const data = [
     </div>
     <div class="container overflow-hidden mt-md-8 mt-3">
       <ul class="row gy-md-11 gy-7 card-news list-unstyled">
-        <li class="col-md-4 col-12" v-for="datum in data" :key="datum.title">
+        <li
+          class="col-md-4 col-12"
+          data-aos="flip-up"
+          v-for="datum in data"
+          :key="datum.title"
+        >
           <div class="card border-0">
             <div class="card-header border-3 border-dark px-0 pt-0">
               {{ datum.date }}

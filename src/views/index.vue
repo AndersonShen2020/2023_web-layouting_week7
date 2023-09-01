@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted } from "vue"
+
 // import Swiper core and required modules
 import { Navigation, Autoplay } from "swiper/modules"
 
@@ -9,6 +11,10 @@ import { Swiper, SwiperSlide } from "swiper/vue"
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/autoplay"
+
+// AOS
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 // util
 import { getAssetsFile } from "@/util/pub-use"
@@ -120,6 +126,10 @@ const events = [
       "你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！<br /> 帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！"
   }
 ]
+
+onMounted(() => {
+  AOS.init({ once: true })
+})
 </script>
 
 <template>
@@ -249,7 +259,7 @@ const events = [
         <p class="fs-md-13 fs-17 fw-bold noto-tc-serif">近期活動</p>
       </h2>
       <div class="row gy-md-11 gy-7 mt-0">
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               19 MAY 2023
@@ -290,7 +300,7 @@ const events = [
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               23 MAY 2023
@@ -330,7 +340,7 @@ const events = [
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               30 MAY 2023
@@ -370,7 +380,7 @@ const events = [
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               12 June 2023
@@ -410,7 +420,7 @@ const events = [
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               25 June 2023
@@ -450,7 +460,7 @@ const events = [
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" data-aos="flip-up">
           <div class="card border-0 mb-3">
             <div class="card-header border-3 border-dark px-0 pt-0">
               9 July 2023
